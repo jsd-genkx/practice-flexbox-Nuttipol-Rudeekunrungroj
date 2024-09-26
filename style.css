@@ -57,10 +57,10 @@ body {
 
   display: flex;
 
-  /* flex-direction: column; */
+  flex-direction: row;
 
   /* justify-content is for aligning the element on the main axis  (horizontal by default) */
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
 
   /* try */
   /* flex-start, flex-end, center,space-between,space-around, space-evenly */
@@ -80,9 +80,9 @@ body {
   /* Properties value is more or less the same as justify-content */
   /* align-content: center; */
 
-  /* gap: 1rem; */
+  gap: 1rem;
 
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 .item-1 {
